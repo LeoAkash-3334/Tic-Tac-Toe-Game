@@ -1,0 +1,178 @@
+```css
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3rem;
+    color: darksalmon;
+    text-decoration: underline;
+}
+body{
+    background-image: url("31.982daa76a2deebfd8a2b8e784b5707c7.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 50vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 3px;
+    font-size: 10vmin;
+    color: white;
+    background:transparent;
+}
+#reset{
+    padding: 1rem;
+    background-color: rgba(170, 20, 220, 0.838);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px dashed black;
+}
+.msg-con{
+    height: 30vmin;
+} 
+#new{
+    padding: 2rem;
+    background-color: crimson;
+    color: white;
+    font-size: 1.5vmin;
+    border-radius: 10px;
+    border: none;
+}
+#msg{
+    font-size: 8vmin;
+    color: red;
+}
+.hide{
+    display: none;
+}
+.b1{
+    border-right: 2.5px solid white;
+    border-bottom: 2.5px solid white;
+}
+
+.b2{
+    border-left: 2.5px solid white;
+    border-bottom: 2.5px solid white;
+    border-right: 2.5px solid white;
+}
+
+.b3{
+    border-left: 2.5px solid white;
+    border-bottom: 2.5px solid white;
+}
+
+.b4{
+    border-right: 2.5px solid white;
+    border-top: 2.5px solid white;
+    border-bottom: 2.5px solid white; 
+}
+
+.b5{
+    border: 2.5px solid white;
+}
+
+.b6{
+    border-left: 2.5px solid white;
+    border-top: 2.5px solid white;
+    border-bottom: 2.5px solid white;
+}
+
+.b7{
+    border-top: 2.5px solid white;
+    border-right: 2.5px solid white;
+}
+
+.b8{
+    border-top: 2.5px solid white;
+    border-left: 2.5px solid white;
+    border-right: 2.5px solid white;
+}
+
+.b9{
+    border-left: 2.5px solid white;
+    border-top: 2.5px solid white;
+}
+.Box:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.b1:hover{
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+}
+
+.b2:hover{
+    border-top: 5px solid white;
+}
+
+.b3:hover{
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+}
+
+.b4:hover{
+    border-left: 5px solid white;
+}
+
+.b5:hover{
+    border: 5px solid white;
+}
+
+.b6:hover{
+    border-right: 5px solid white;
+}
+
+.b7:hover{
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+}
+
+.b8:hover{
+    border-bottom: 5px solid white;
+}
+
+.b9:hover{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#reset:hover{
+    background-color: rgba(255, 0, 0, 0.838);
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,.8);
+    border-radius: 10px;
+    border: 2px dashed black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#new:hover{
+    background-color: rgba(255, 0, 0, 0.386);
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,.8);
+    border-radius: 10px;
+    border: 2px dashed black;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    
+}
